@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                // Output JS version
+    "module": "CommonJS",              // Use CommonJS to avoid .js extension issues
+    "moduleResolution": "node",        // How modules are resolved
+    "outDir": "dist",                   // Compiled files output
+    "rootDir": "src",                   // Your source folder
+    "esModuleInterop": true,            // Allow default imports from CommonJS
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                     // Enable all strict type checks
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
